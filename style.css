@@ -1,0 +1,110 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container-one {
+    background: #C40019;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 257px;
+    position: relative;
+    left: 20px;
+}
+.inner-container {
+    padding-top: 10px;
+    text-align: center;
+}
+#first-link:link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial;
+}
+#first-link:hover {
+    text-decoration: underline;
+}
+#userName {
+    text-align: right;
+    font-family: arial;
+    font-size: 18px;
+    direction: ltr;
+    background: gainsboro;
+}
+#password {
+    text-align: right;
+    font-family: arial;
+    font-size: 18px;
+    direction: ltr;
+    background: gainsboro;
+}
+.header {
+    color: #fff;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: normal;
+    text-align: center;
+    font-family: Poalim,Helvetica,Arial;
+}
+.row {
+    padding-bottom: 10px;
+}
+.enter-button{
+    background: rgba(255, 255, 255, 0.979);
+    color: #C40019;
+    border-radius: 100px;
+    width: 142px;
+    height: 32px;
+    font-size: 20px;
+}
+.enter-button:hover{
+    background: rgb(228, 227, 227);
+}
+.container-two {
+    background: rgb(177, 1, 25);
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 167px;
+    position: relative;
+    left: 20px;
+    
+}
+.member-container {
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 17px;
+    text-align: center;
+}
+.member-container a:link {
+    height: 75px;
+    background: white;
+    padding: 20px;
+    color: rgb(2, 2, 59);
+    text-decoration-line: none;
+    text-align: center;
+    border-radius: 5px;
+}
+.member-container img{
+    -webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); 
+    width: 30px;
+    height: 20px;
+    padding-left: 10px;
+}
+.net-account{
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.net-account a:link{
+    color: white;
+    text-align: center;
+    text-decoration-line: none;
+    background-color: transparent;
+    font-family: Poalim,Helvetica,Arial;
+}
+.net-account a:hover{
+    text-decoration-line: underline;
+
+}
